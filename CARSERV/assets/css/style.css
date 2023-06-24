@@ -1,0 +1,385 @@
+@import url('https://fonts.google.com/specimen/Ubuntu')
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    font-size: 14px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border: 19px;
+    border-style: none;
+    color: #faf7f7;
+    text-decoration: none;
+    background-color: #d40808;
+}
+main{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.647), rgba(0, 0, 0, 0.6)), url('../images/carousel-bg-1.jpg');
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+ /*HEADER*/ 
+ .righthead{
+    display: block;
+ }
+
+header {
+    height: 105px;
+    color: #fff;
+}
+header .info-header .contact {
+    font-family: "Ubuntu",sans-serif;
+    font-size: .875em;
+    color: #596277;
+    background-color: #F2F2F2;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .info-header .contact span{
+    display: inline-block;
+    margin-left: 15px;
+}
+header .righthead{
+    display: flex;
+    gap:50px;
+}
+.righthead .icons{
+    margin-right: 30px;
+}
+
+header .wreaper{
+    height:70px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header .wreaper, ul {
+    height: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+header .container .wreaper {
+    display: flex;
+    align-items: center;
+}
+header .wreaper ul li ul{
+    width: 190px;
+    height: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    display: none;
+    padding: 10px;
+    flex-direction: column;
+}
+.wreaper .logo {
+    display: flex;
+    justify-content: flex-start;
+    color:#d40808;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+header .wreaper ul li ul:hover ul{
+    display: block;
+}
+
+header .wreaper ul li ul a{
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* section main */
+main {
+    height:100%;
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+main .content{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 30px;
+
+}
+main h6, h1{
+    color: #fff;
+    font-weight: bolder;
+    font-family: "Barlow",sans-serif;
+
+}
+main img{
+    width: 450px;
+    padding-right: 100px;
+}
+main h6 {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+main, h1{
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 1.2;
+    overflow-wrap: property;
+}
+main .display1{
+    font-size: 30px;
+    line-height: 1.2;
+}
+main a{
+    width: 150px;
+    height: 40px;
+}
+/* Section Cards */
+section#cards{
+    height: 300px;
+    margin-top: 80px;
+}
+section#cards .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:30px
+}
+section#cards a {
+    text-decoration-line: none;
+    color: #0B2154;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Ubuntu",sans-serif;
+}
+section#cards .card{
+    font-size: 28px;
+    display: flex;
+    justify-content:sp;
+    align-items: center;
+}
+section#cards  p {
+    display: flex;
+    justify-content: center;
+}
+.card-body-active{
+    background-color: rgb(241, 246, 248);
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Section about-us */
+section#about-us{
+    font-family: "Barlow",sans-serif;
+    margin-bottom: 50px;
+}
+section#about-us .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+section#about-us .slide{
+    box-sizing: border-box;
+}
+section#about-us .slide h3{
+    font-size: 38px;
+}
+section#about-us .slide h3 span{
+    color: #d40808;
+}
+section#about-us .ul span{
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+section#about-us .li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    gap:10px;
+    
+}
+section#about-us .us{
+    font-family: "Barlow",sans-serif;
+    color: #d40808;
+    font-weight: 600;
+}
+section#about-us a{
+    margin-top: 97px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+section#about-us .ul{
+    gap:30px
+}
+
+/* Section History */
+
+section#history .container{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('../images/carousel-bg-1.jpg');
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+section#history .history-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#history span{
+    font-size: 20px;
+}
+section#history h4{
+    margin-top: 2px;
+}
+section#history p{
+    margin-top: -7px;
+}
+
+/* FOOTER Section */
+html{
+    position: relative;
+}
+.footer {
+    position: relative;
+    min-height: 100%;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height:300px;
+    margin-bottom: 100px;
+}
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+    padding-bottom: 400px;
+}
+  
+footer a {
+    color: #999;
+    text-decoration:none;
+}
+  
+footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+}
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+/* Mobile Version */
+@media (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* Header */
+     header .righthead{
+        display: none;
+    }
+    header .contact{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    /* Section Main */
+    main .img{
+        display: none;
+    }
+    main .content{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Section About us */
+    section#about-us .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section#about-us .image{
+        display: none;
+    }
+    /* Section History */
+    section#history .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section#cards {
+        height: 850px;
+    }
+    section#cards .container{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    section#history .container{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        gap: 100px;
+        justify-content: center;
+    }
+    /* Footer */
+    .footer {
+        height: 500px;
+      }
+      .list-unstyledd{
+        display: none;
+      }
+      .list-unstyled{
+        gap:10px;
+        padding-right: 30px;
+      }
+    .footer-nav{
+        padding-right: 38px;
+    }
+}
